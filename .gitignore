@@ -1,2 +1,6 @@
 # ignore local properties file
 local.properties
+
+# ignore build files
+bin/
+gen/
