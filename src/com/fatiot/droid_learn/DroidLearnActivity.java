@@ -2,7 +2,6 @@ package com.fatiot.droid_learn;
 
 import android.app.Activity;
 import android.os.Bundle;
-import android.widget.TextView;
 
 public class DroidLearnActivity extends Activity
 {
@@ -10,11 +9,9 @@ public class DroidLearnActivity extends Activity
     @Override
     public void onCreate(Bundle savedInstanceState)
     {
+
         super.onCreate(savedInstanceState);
+        setContentView(R.layout.main);
 
-        TextView tv = new TextView(this);
-        tv.setText("Sup mang!");
-
-        setContentView(tv);
     }
 }
